@@ -1,0 +1,64 @@
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large data files and temporary files
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+*.pdf
+*.numbers
+
+# Exclude specific directories that might contain large data
+# Uncomment if needed
+# data/large_datasets/
+# results/raw_data/
+
+# Keep specific data files needed for demonstration
+!data/abstracts_new/000.txt
+!data/abstracts_new/001.txt
+!data/abstracts_new/002.txt
+!data/abstracts_new/003.txt
+!data/abstracts_new/004.txt
+!results/INBIO-NEW_v1.owl
